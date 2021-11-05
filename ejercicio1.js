@@ -28,7 +28,7 @@ function digits(num) {
 }
 
 for (let i = 1; i <= 50; i++) {
-    console.log(n1 + " " + paridad(n1) + " " + isPrime(n1) + " " + digits(n1));
+    console.log(n1 + "|" + paridad(n1) + "|" + isPrime(n1) + "|" + digits(n1));
     siguiente = n1 + n2;
     n1 = n2;
     n2 = siguiente;
