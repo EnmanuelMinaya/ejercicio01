@@ -18,7 +18,7 @@ function paridad(num) {
 }
 function digits(num) {
     let stringOfDigits = '';
-    while (num > 1) {
+    while (num > 0) {
         let digit = num % 10;
         digit.toString();
         stringOfDigits = digit + ", " + stringOfDigits;
